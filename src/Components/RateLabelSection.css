@@ -1,0 +1,118 @@
+.main-label-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 150px 80px 150px;   
+}
+.label-container{
+    width: 100%;
+    /* max-width: 1140px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 30px 100px;
+    border-radius: 100px ;
+    background: rgba(249, 249, 250, 1);
+    border: 1px solid rgba(241, 241, 241, 1);
+}
+.tag-1{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+.tag-1 h3{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    text-align: left;
+     color: black;
+     margin: 0;
+}
+.tag-1 p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(152, 163, 184, 1);
+    margin: 0;
+}
+
+
+@media screen and (max-width:1070px) {
+    .main-label-container{
+        padding: 50px 60px 60px 60px;   
+    }
+    .label-container{
+        width: 100%;
+        padding: 20px 70px;
+    }
+    .tag-1 h3{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .tag-1 p{
+        font-size: 14px;
+        line-height: 25.6px;
+    }
+}
+
+
+@media screen and (max-width:760px) {
+    .main-label-container{
+        padding: 400px 40px 30px 40px;   
+    }
+    .label-container{
+        width: 100%;
+        padding: 20px 30px;
+    }
+    .tag-1 h3{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .tag-1 p{
+        font-size: 12px;
+        line-height: 18.6px;
+    }
+}
+
+
+@media screen and (max-width:760px) {
+    .main-label-container{
+        padding: 350px 25px 30px 25px;   
+    }
+    .label-container{
+        width: 100%;
+        padding: 10px 30px;
+    }
+    .tag-1 h3{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .tag-1 p{
+        font-size: 10px;
+        line-height: 18.6px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .main-label-container{
+        padding: 350px 20px 30px 20px;   
+    }
+    .label-container{
+        width: 100%;
+        padding: 10px 15px;
+    }
+    .tag-1 h3{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .tag-1 p{
+        font-size: 8px;
+        line-height: 12.6px;
+    }
+}

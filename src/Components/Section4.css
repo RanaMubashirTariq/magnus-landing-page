@@ -1,0 +1,195 @@
+.section4-main-container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4-upper-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 201px 0px 201px;
+}
+.section4-inner-upper-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+.section4-container-tag{
+    width: 145px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 8px 16px; */
+    gap: 10px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(241, 241, 241, 1);
+}
+.section4-container-tagp{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    color: rgba(107, 114, 128, 1);
+    margin: 0;
+}
+.section4-inner-upper-container h3{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46.8px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font; 
+    color: rgba(12, 13, 14, 1);
+    margin: 0;
+}
+.section4-inner-upper-container p{
+    max-width: 699px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    color: rgba(152, 163, 184, 1);
+    margin: 0;
+}
+.menu-link-bar{
+    /* width: 100%; */
+    max-width: 625px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 100px;
+    row-gap: 10px;
+    border: 1px solid rgba(241, 241, 241, 1);
+    background: rgba(255, 255, 255, 1);
+    margin-top: 50px;
+}
+.same-div-tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    gap: 3px;
+}
+.same-div-tag p{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    color: rgba(152, 163, 184, 1);
+    margin: 0;
+}
+.same-div-tag:hover{
+    background: rgba(243, 244, 246, 1);
+    border: 1px solid rgba(241, 241, 241, 1);
+    border-radius: 100px;
+    /* color: rgba(12, 13, 14, 1); */
+}
+.same-div-tag p:hover{
+    color: rgba(12, 13, 14, 1);
+}
+
+
+@media screen and (max-width:1300px) {
+    .section4-upper-container{
+        padding: 100px 151px 0px 151px;
+    }
+}
+
+
+
+
+@media screen and (max-width:1100px) {
+    .section4-upper-container{
+        padding: 100px 100px 0px 100px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .section4-upper-container{
+        padding: 100px 50px 0px 50px;
+    }
+    .section4-inner-upper-container h3{
+        font-size: 32px;
+        line-height: 46.8px;
+    }
+    .section4-inner-upper-container p{
+        font-size: 14px;
+        line-height: 25.6px;
+    }
+    .menu-link-bar{
+        margin-top: 30px;
+    }
+    .same-div-tag{
+        padding: 10px 10px;
+        gap: 3px;
+    }
+    .same-div-tag p{
+        font-size: 12px;
+        line-height: 18px;
+}
+}
+
+@media screen and (max-width:690px) {
+    .section4-upper-container{
+        padding: 30px 25px 0px 25px;
+    }
+    .section4-inner-upper-container{
+        gap: 10px;
+    }
+    .section4-inner-upper-container h3{
+        font-size: 24px;
+        line-height: 32.8px;
+    }
+    .section4-inner-upper-container p{
+        font-size: 12px;
+        line-height: 18.6px;
+    }
+    .menu-link-bar{
+        margin-top: 20px;
+    }
+    .same-div-tag{
+        padding: 10px 10px;
+        gap: 3px;
+    }
+    .same-div-tag p{
+        font-size: 10px;
+        line-height: 14px;
+}
+}
+
+
+@media screen and (max-width:470px) {
+    .section4-inner-upper-container h3{
+        font-size: 22px;
+        line-height: 32.8px;
+    }
+    .menu-link-bar{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .same-div-tag{
+        padding: 5px 5px;
+        gap: 3px;
+    }
+    .same-div-tag p{
+        font-size: 10px;
+        line-height: 14px;
+}
+}

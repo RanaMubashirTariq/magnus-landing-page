@@ -1,0 +1,382 @@
+.main-1st-section-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+     /* background: pink; */
+     gap: 18px;
+    }
+    .main-1st-section-right-div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 130px 0px 180px 150px;
+        box-sizing: border-box;
+    }
+    .main-1st-section-right-top-d{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .first-logo-part{
+        max-width: 242px;
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        gap: 10px;
+        border-radius: 100px;
+        border: 1px solid rgba(241, 241, 241, 1);
+        background: rgba(255, 255, 255, 1);
+    }
+    .main-1st-section-right-top-d h1{
+        max-width: 550px;
+        font-family: Poppins;
+        font-size: 55px;
+        font-weight: 600;
+        line-height: 71.5px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: rgba(12, 13, 14, 1);
+        margin: 0;
+    }
+    .main-1st-section-right-top-d p{
+        max-width: 450px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28.8px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: rgba(152, 163, 184, 1);
+        margin: 0;
+    }
+    .first-logo-part p{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(107, 114, 128, 1);
+        margin: 0;
+    }
+    .main-1st-section-right-bottom-div{
+        width: 387px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding-top: 60px;
+    }
+    .two-icons{
+        display: flex;
+        gap: 5px;
+    }
+    .icon{
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height:60px;
+        padding: 15px;
+        gap: 3px;
+        border-radius: 100px;
+        border: 1px solid rgba(241, 241, 241, 1);
+        background: rgba(255, 255, 255, 1);
+    }
+    .icon a{
+        text-decoration: none;
+    }
+    .icon-telegram a{
+        width:257px;
+        height:60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 22px 15px 15px;
+        gap: 10px;
+        border-radius: 100px;
+        background: rgba(12, 13, 14, 1);
+        text-decoration: none;
+    }
+    .icon-telegram a p{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: rgba(255, 255, 255, 1);
+        margin: 0;
+    } 
+    .main-1st-section-left-div{
+        padding: 50px 0px 100px 0px;
+    }
+    /* .main-1st-section-left-div img{
+        max-width: 722px;
+        height: 653px;
+    } */
+
+
+
+
+    @media screen and (min-width:1150px) and (max-width:1300px) {
+        .main-1st-section-right-div{
+            width: 100%;
+            /* max-width: 550px; */
+            padding: 130px 0px 180px 120px;
+        }
+        .main-1st-section-right-top-d h1{
+            max-width: 550px;
+            font-family: Poppins;
+            font-size: 44px;
+            font-weight: 600;
+            line-height: 50.5px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: rgba(12, 13, 14, 1);
+            margin: 0;
+        }
+         .main-1st-section-left-div img{
+        max-width: 722px;
+        height: 653px;
+    }
+    }
+
+
+    @media screen and (min-width:1000px) and (max-width:1150px) {
+        .main-1st-section-container{
+             overflow: hidden;
+            }
+        .main-1st-section-right-div{
+            width: 100%;
+            /* max-width: 550px; */
+            padding: 130px 0px 180px 80px;
+        }
+        .main-1st-section-right-top-d h1{
+            max-width: 400px;
+            font-family: Poppins;
+            font-size: 44px;
+            font-weight: 600;
+            line-height: 50.5px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: rgba(12, 13, 14, 1);
+            margin: 0;
+        }
+
+        .main-1st-section-right-top-d p{
+            max-width: 400px;
+            font-size: 16px;
+            line-height: 28.8px;
+        }
+        .first-logo-part p{
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: rgba(107, 114, 128, 1);
+            margin: 0;
+        }
+        .main-1st-section-right-bottom-div{
+            padding-top: 30px;
+        }
+         .main-1st-section-left-div img{
+        max-width: 550px;
+        height: 600px;
+       }
+
+    }
+
+
+    @media screen  and (max-width:1000px) {
+        .main-1st-section-right-div{
+            width: 100%;
+            padding: 50px 0px 50px 50px;
+        }
+        .main-1st-section-right-top-d{
+            gap: 10px;
+        }
+        .main-1st-section-right-top-d h1{
+            max-width: 100%;
+            font-size: 36px;
+            line-height: 45.5px;
+        }
+
+        .main-1st-section-right-top-d p{
+            max-width: 100%;
+            font-size: 14px;
+            line-height: 20.8px;
+        }
+        .first-logo-part p{
+            font-size: 12px;
+            line-height: 21px;
+        }
+        .main-1st-section-right-bottom-div{
+            padding-top: 30px;
+        }
+        .icon{
+            width: 40px;
+            height:40px;
+        }
+        .icon img{
+            width: 20px;
+            height: 20px;
+        }
+        .icon-telegram a{
+            width:190px;
+            height:50px;
+            padding: 10px 15px 10px 10px;
+        }
+        .icon-telegram a p{
+            font-size: 12px;
+            line-height: 16px;
+        } 
+        .icon-telegram a img{
+            width: 20px;
+        }
+        .first-logo-part{
+            max-width: 220px;
+        }
+        .main-1st-section-left-div{
+             padding: 20px 0px 70px 0px;
+        }
+         .main-1st-section-left-div img{
+        max-width: 100%;
+       }
+    }
+
+
+    @media screen  and (max-width:760px) {
+        .main-1st-section-container{
+            flex-direction: column;
+            position: relative;
+            padding-right: 25px;
+            }
+        .main-1st-section-right-div{
+            max-width: 100%;
+            padding: 30px 0px 30px 25px;
+        }
+        .main-1st-section-right-top-d h1{
+            /* max-width: 350px; */
+            font-size: 28px;
+            line-height: 35.5px;
+        }
+
+        .main-1st-section-right-top-d p{
+            /* max-width: 300px; */
+            font-size: 14px;
+            line-height: 20.8px;
+        }
+        .first-logo-part p{
+            font-size: 12px;
+            line-height: 21px;
+        }
+        .main-1st-section-right-bottom-div{
+            padding-top: 30px;
+        }
+        .icon{
+            width: 40px;
+            height:40px;
+        }
+        .icon img{
+            width: 20px;
+            height: 20px;
+        }
+        .icon-telegram a{
+            max-width:220px;
+            height:40px;
+            padding: 10px 15px 10px 10px;
+        }
+        .icon-telegram a p{
+            font-size: 12px;
+            line-height: 24px;
+        } 
+        .icon-telegram a img{
+            width: 20px;
+        }
+        .first-logo-part{
+            max-width: 220px;
+        }
+        .main-1st-section-left-div{
+               position:absolute;
+               top: 300px;
+               right: 0px;
+        }
+         .main-1st-section-left-div img{
+          width: 300px;
+       }
+    }
+
+    @media screen  and (max-width:410px) {
+        .main-1st-section-container{
+            flex-direction: column;
+            position: relative;
+            }
+        .main-1st-section-right-div{
+            max-width: 100%;
+            padding: 30px 0px 30px 25px;
+            overflow: hidden;
+        }
+        .main-1st-section-right-top-d h1{
+            /* max-width: 350px; */
+            font-size: 28px;
+            line-height: 35.5px;
+        }
+
+        .main-1st-section-right-top-d p{
+            /* max-width: 300px; */
+            font-size: 14px;
+            line-height: 20.8px;
+        }
+        .first-logo-part p{
+            font-size: 12px;
+            line-height: 21px;
+        }
+        .main-1st-section-right-bottom-div{
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 30px;
+        }
+        .icon{
+            width: 40px;
+            height:40px;
+        }
+        .icon img{
+            width: 20px;
+            height: 20px;
+        }
+        .icon-telegram a{
+            max-width:220px;
+            height:40px;
+            padding: 10px 15px 10px 10px;
+        }
+        .icon-telegram a p{
+            font-size: 12px;
+            line-height: 24px;
+        } 
+        .icon-telegram a img{
+            width: 20px;
+        }
+        .first-logo-part{
+            max-width: 220px;
+        }
+        .main-1st-section-left-div{
+               position: absolute;
+               top: 400px;
+               right: 0px;
+        }
+        .two-icons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+         .main-1st-section-left-div img{
+          width: 300px;
+       }
+    }
